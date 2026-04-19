@@ -24,7 +24,7 @@ jobs:
         run: make
       # используем готовый action - загружаем артефакт
       - name: Upload binary
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         # настраиваем параметры
         with:
           # под каким именем
